@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+     <script src="https://code.jquery.com/jquery-3.2.1.js"
+     integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+     crossorigin="anonymous"></script>
+     <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title>favorite things</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Favorite Things</h1>
+      </div>
+      <form id="formone">
+        <div class="form-group">
+          <label for="side-a">Fav Food:</label>
+          <input id="side-a" class="form-control" type="text" required>
+        </div>
+        <div class="form-group">
+          <label for="side-b">Fav Game:</label>
+          <input id="side-b" class="form-control" type="text" required>
+        </div>
+        <div class="form-group">
+          <label for="side-c">Fav Movie:</label>
+          <input id="side-c" class="form-control" type="text" required>
+        </div>
+        <button type="submit" name="button">Check Out !!</button>
+      </form>
+      <div class="hidden output">
+        <ul>
+          <li>Fav Food:<ol id="food"></ol></li>
+          <li>Fav Game:<ol id="game"></ol></li>
+          <li>Fav Movie:<ol id="movie"></ol></li>
+        </ul>
+
+              <ul>
+                <li>New Array : <ol id="newoutput"></ol></li>
+              </ul>
+
+      </div>
+    </div>
+
+
+    </div>
+
+  </body>
+</html>
